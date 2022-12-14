@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:19.2.0-buster
 WORKDIR /app
 COPY . /app
 RUN npm install
